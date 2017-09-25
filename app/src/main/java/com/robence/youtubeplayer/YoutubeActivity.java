@@ -1,11 +1,9 @@
 package com.robence.youtubeplayer;
 
-import android.support.constraint.ConstraintLayout;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.constraint.ConstraintLayout;
 import android.util.Log;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.youtube.player.YouTubeBaseActivity;
@@ -17,7 +15,7 @@ public class YoutubeActivity extends YouTubeBaseActivity
         implements YouTubePlayer.OnInitializedListener {
     static final String GOOGLE_API_KEY = "AIzaSyDA409Hxckf0sAUUuCGgBTC2216VRzdjM0";
     static final String YOUTUBE_VIDEO_ID = "3nLA-X54o0c";
-    static final String YOUTUBE_PLAYLIST = "PLt76zUfZPnMoINFfgWNyTfahq_nHxiiS5";
+    static final String YOUTUBE_PLAYLIST = "RDm_SSr-tbY_M";
     private static final String TAG = "YoutubeActivity";
     private YouTubePlayer.PlaybackEventListener playbackEventListener = new YouTubePlayer.PlaybackEventListener() {
         @Override
