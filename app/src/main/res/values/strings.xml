@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Youtube Player</string>
+    <string name="single_video">play a single_video</string>
+    <string name="submenu">standalone sub menu</string>
 </resources>
